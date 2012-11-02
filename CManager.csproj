@@ -68,11 +68,13 @@
     <SignManifests>true</SignManifests>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CassetteExtension">
-      <HintPath>dlls\CassetteExtension.dll</HintPath>
+    <Reference Include="CassetteExtension, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CassetteExtension\bin\CassetteExtension.dll</HintPath>
     </Reference>
-    <Reference Include="CassetteKernel">
-      <HintPath>dlls\CassetteKernel.dll</HintPath>
+    <Reference Include="CassetteKernel, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CassetteKernel\bin\CassetteKernel.dll</HintPath>
     </Reference>
     <Reference Include="DeepZoomTools">
       <HintPath>dlls\DeepZoomTools.DLL</HintPath>
