@@ -65,15 +65,9 @@
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CassetteExtension">
-      <HintPath>dlls\CassetteExtension.dll</HintPath>
-    </Reference>
-    <Reference Include="CassetteKernel">
-      <HintPath>dlls\CassetteKernel.dll</HintPath>
-    </Reference>
     <Reference Include="DeepZoomTools">
       <HintPath>dlls\DeepZoomTools.DLL</HintPath>
     </Reference>
@@ -188,6 +182,16 @@
       <ProductName>Установщик Windows 3.1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CassetteExtension\CassetteExtension.csproj">
+      <Project>{2FA45444-568C-41E8-A39E-3D625B7E0199}</Project>
+      <Name>CassetteExtension</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CassetteKernel\CassetteKernel.csproj">
+      <Project>{49CB6E7F-AC7E-4331-A8C5-D9CE108D2A98}</Project>
+      <Name>CassetteKernel</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
