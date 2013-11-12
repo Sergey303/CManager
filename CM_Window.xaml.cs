@@ -1047,6 +1047,11 @@ namespace CManager
             }
         }
 
+        private void Delete_Arch_member_OnClick(object sender, RoutedEventArgs e)
+        {
+            cass.db.Elements("archive-member").Remove();
+            cass.Save();
+        }
     }
     /// <summary>
     /// Класс оперативного хранения загруженных имиджей

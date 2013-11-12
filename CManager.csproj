@@ -185,11 +185,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CassetteExtension\CassetteExtension.csproj">
-      <Project>{2FA45444-568C-41E8-A39E-3D625B7E0199}</Project>
+      <Project>{2fa45444-568c-41e8-a39e-3d625b7e0199}</Project>
       <Name>CassetteExtension</Name>
     </ProjectReference>
     <ProjectReference Include="..\CassetteKernel\CassetteKernel.csproj">
-      <Project>{49CB6E7F-AC7E-4331-A8C5-D9CE108D2A98}</Project>
+      <Project>{49cb6e7f-ac7e-4331-a8c5-d9ce108d2a98}</Project>
       <Name>CassetteKernel</Name>
     </ProjectReference>
   </ItemGroup>

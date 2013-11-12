@@ -26,6 +26,7 @@
                 <MenuItem Header="Recalc Doc Types" Click="MenuRecalcDocTypes_Click" />
                 <MenuItem Header="Special" Click="MenuSpecial_Click" />
                 <MenuItem Header="Приписать архиву" Click="MenuLinkToArchive_Click" />
+                <MenuItem Header="Delete archive-member" Click="Delete_Arch_member_OnClick" />
             </MenuItem>
         </Menu>
         <StatusBar Grid.Row="2" Name="statusBar1" Height="26">
